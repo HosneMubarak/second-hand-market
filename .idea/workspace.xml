@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="741a1cd5-7ecc-4aef-863b-9f645fd2e2d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecondHandOnlineMarket/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecondHandOnlineMarket/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/post_images/CBBA0BC8-72EA-91CF-141E-4F807FD8DD9F.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/post_images/iphone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/post_images/iphone_RXomRTE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/post_images/oppo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/post/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +129,8 @@
       <workItem from="1587982344443" duration="3077000" />
       <workItem from="1587993197056" duration="3452000" />
       <workItem from="1588266964421" duration="4687000" />
+      <workItem from="1588273201564" duration="1167000" />
+      <workItem from="1588274422062" duration="486000" />
     </task>
     <servers />
   </component>
@@ -149,10 +153,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="448" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1586973826135" />
-    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587995384327">
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588274381017">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1587995384327" />
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588274381017" />
     <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1585575224529">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -161,30 +165,30 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1498" y="58" width="1182" height="554" key="DiffContextDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1587982687780" />
-    <state width="1306" height="190" key="GridCell.Tab.0.bottom" timestamp="1588271754436">
+    <state width="1306" height="190" key="GridCell.Tab.0.bottom" timestamp="1588274386167">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1306" height="190" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588271754436" />
-    <state width="1306" height="190" key="GridCell.Tab.0.center" timestamp="1588271754436">
+    <state width="1306" height="190" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588274386167" />
+    <state width="1306" height="190" key="GridCell.Tab.0.center" timestamp="1588274386167">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1306" height="190" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588271754436" />
-    <state width="1306" height="190" key="GridCell.Tab.0.left" timestamp="1588271754435">
+    <state width="1306" height="190" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588274386167" />
+    <state width="1306" height="190" key="GridCell.Tab.0.left" timestamp="1588274386166">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1306" height="190" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588271754435" />
-    <state width="1306" height="190" key="GridCell.Tab.0.right" timestamp="1588271754436">
+    <state width="1306" height="190" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588274386166" />
+    <state width="1306" height="190" key="GridCell.Tab.0.right" timestamp="1588274386167">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1306" height="190" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588271754436" />
+    <state width="1306" height="190" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588274386167" />
     <state x="184" y="12" key="SettingsEditor" timestamp="1588270629697">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="12" key="SettingsEditor/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588270629697" />
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1588273201455">
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1588274428513">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588273201455" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588274428513" />
     <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586181805231" />
     <state x="492" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585575209478">
       <screen x="0" y="0" width="1366" height="738" />
