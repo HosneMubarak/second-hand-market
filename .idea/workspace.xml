@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="741a1cd5-7ecc-4aef-863b-9f645fd2e2d3" name="Default Changelist" comment="" />
+    <list default="true" id="741a1cd5-7ecc-4aef-863b-9f645fd2e2d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondHandOnlineMarket/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecondHandOnlineMarket/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +126,7 @@
       <workItem from="1587980904503" duration="1145000" />
       <workItem from="1587982344443" duration="3077000" />
       <workItem from="1587993197056" duration="3452000" />
-      <workItem from="1588266964421" duration="3351000" />
+      <workItem from="1588266964421" duration="4687000" />
     </task>
     <servers />
   </component>
@@ -155,30 +161,30 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1498" y="58" width="1182" height="554" key="DiffContextDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1587982687780" />
-    <state width="1306" height="190" key="GridCell.Tab.0.bottom" timestamp="1588267820541">
+    <state width="1306" height="190" key="GridCell.Tab.0.bottom" timestamp="1588271754436">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1306" height="190" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588267820541" />
-    <state width="1306" height="190" key="GridCell.Tab.0.center" timestamp="1588267820541">
+    <state width="1306" height="190" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588271754436" />
+    <state width="1306" height="190" key="GridCell.Tab.0.center" timestamp="1588271754436">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1306" height="190" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588267820541" />
-    <state width="1306" height="190" key="GridCell.Tab.0.left" timestamp="1588267820540">
+    <state width="1306" height="190" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588271754436" />
+    <state width="1306" height="190" key="GridCell.Tab.0.left" timestamp="1588271754435">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1306" height="190" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588267820540" />
-    <state width="1306" height="190" key="GridCell.Tab.0.right" timestamp="1588267820541">
+    <state width="1306" height="190" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588271754435" />
+    <state width="1306" height="190" key="GridCell.Tab.0.right" timestamp="1588271754436">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1306" height="190" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588267820541" />
-    <state x="184" y="12" key="SettingsEditor" timestamp="1587982532171">
+    <state width="1306" height="190" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588271754436" />
+    <state x="184" y="12" key="SettingsEditor" timestamp="1588270629697">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="12" key="SettingsEditor/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1587982532171" />
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1588266964194">
+    <state x="184" y="12" key="SettingsEditor/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588270629697" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1588273201455">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588266964194" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588273201455" />
     <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586181805231" />
     <state x="492" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585575209478">
       <screen x="0" y="0" width="1366" height="738" />

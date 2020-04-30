@@ -95,7 +95,7 @@ class SearchPageView(ListView):
         title = self.request.GET.get('title_q')
         location = self.request.GET.get('location_q')
         return PostAd.objects.filter(
-            Q(title__icontains=title, description__icontains=title) & Q(location__location_category__icontains=location)
+            Q(title__icontains=title) & Q(location__location_category__icontains=location)
         )
 
 
