@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    All Posts
+{% endblock %}
+
+{% block content %}
+    <hr class="bg-success">
+    <div class="container mt-3">
+        <section>
+            <div class="containe">
+                <h1 class="display-4">Search Result</h1>
+            </div>
+        </section>
+
+        <hr class="bg-success">
+        <section>
+            <div class="container">
+                <div class="row">
+                    {% for post in search_list %}
+                        <div class="card mr-2 mt-2" style="width:362px;">
+                            {% if post.image_main %}
+                                <img class="card-img-top px-1 py-1" src="{{ post.image_main.url }}"
+                                     style="width:350px; height: 300px" alt="Card image">
+                            {% endif %}
+                            <div class="card-body">
+                                <h4 class="card-title">{{ post.title }}</h4>
+                                <p class="card-text">{{ post.price }} BDT</p>
+                                <p class="card-text">{{ post.location }}</p>
+                                <a href="{% url 'post-detail' post.id %}" class="btn btn-primary">See Details</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+{% endblock %}

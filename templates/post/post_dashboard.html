@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block title %}
+    Dashboard Page
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-4 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li class="mt-4"><a href='' class="btn btn-outline-success">My Account</a></li>
+
+                            <li class="mt-4"><a href="{% url 'account_change_password' %}"
+                                                class="btn btn-outline-success">Change Password</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-lg-8">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">My Post</th>
+                        <th scope="col">Post Update</th>
+                        <th scope="col">Post Delete</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% if object_list %}
+                        {% for post in post_list_dashboard %}
+                            <tr>
+                                <td><a href="{% url 'post-detail' post.id %}">{{ post.title }}</a></td>
+                                <td><a href="{% url 'post-update' post.id %}" class="btn btn-secondary">Update</a></td>
+                                <td><a href="{% url 'post-delete' post.id %}" class="btn btn-danger">Delete</a></td>
+                            </tr>
+
+                        {% endfor %}
+
+                    {% else %}
+
+                        <p class="display-4">You don not have any post.</p>
+                    {% endif %}
+
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

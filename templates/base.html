@@ -1,0 +1,121 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
+
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container m-3">
+        {#        <a class="navbar-brand" href="#">#}
+        {#            <img id="logo-image" src="" alt="logo">#}
+        {#        </a>#}
+        <a class="navbar-brand" href="{% url 'home-page' %}">Bikroy.com</a>
+        <button class="navbar-toggler mb-3" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active mb-2">
+                    <a class="nav-link ml-5 btn btn-success text-light px-5" href="{% url 'post-list' %}">All Ads</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link btn btn-success text-light" href="{% url 'post-create' %}">POST YOUR AD</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+
+                {% if user.is_authenticated %}
+                    <li class="nav-item dropdown btn btn-outline-success mt-3">
+                        <a href="#" class="nav-link dropdown-toggle"
+                           data-toggle="dropdown">Wellcome,{{ user.username }}</a>
+                        <div class="dropdown-menu">
+                            <a href="{% url 'post-dashboard' %}" class="dropdown-item">My Dashboard</a>
+                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                        </div>
+                    </li>
+                {% else %}
+                    <li class="nav-item mr-5">
+                        <a class="nav-link btn btn-success text-light" href="{% url 'account_login' %}"><span><i
+                                class="fa fa-user"></i> </span>Log in</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>
+
+{% block content %}
+
+
+{% endblock %}
+<hr class="bg-success">
+<!--    footer-->
+<section class="bg-dark" id="footer">
+    <div class="container text-light">
+        <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-12 py-5">
+                <div class="d-flex justify-content-center mb-5">
+
+                    <!-- Facebook -->
+                    <a class="fb-ic" href="">
+                        <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="tw-ic" href="">
+                        <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic" href="">
+                        <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Pinterest-->
+                    <a class="pin-ic" href="">
+                        <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <spam>© 2020 Copyright:</spam>
+                    <a href="">Bikroy.com</a>
+                </div>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+    </div>
+</section>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>

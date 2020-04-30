@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+{{% block title %}
+    Post Create
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-3 mb-4">
+        <h4 class="display-4 text-center">Update Your Post:</h4>
+        <hr class="bg-success">
+        <div class="row">
+            <div class="col-md-4 border-right text-color-success">
+                <h4 class="display-4">
+                    Start Posting Your Own Ads.
+                </h4>
+            </div>
+            <div class="col-md-8">
+                <form action="" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="form-row">
+                        <div class="form-group col-md-12 mb-0">
+                            {{ form.title|as_crispy_field }}
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6 mb-0">
+                            {{ form.condition|as_crispy_field }}
+                        </div>
+                        <div class="form-group col-md-6 mb-0">
+                            {{ form.location|as_crispy_field }}
+                        </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4 mb-0">
+                            {{ form.mobile|as_crispy_field }}
+                        </div>
+                        <div class="form-group col-md-4 mb-0">
+                            {{ form.price|as_crispy_field }}
+                        </div>
+                        <div class="form-group col-md-4 mb-0">
+                            {{ form.category|as_crispy_field }}
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4 mb-0">
+                            {{ form.image_main|as_crispy_field }}
+                        </div>
+                        <div class="form-group col-md-4 mb-0">
+                            {{ form.image2|as_crispy_field }}
+                        </div>
+                        <div class="form-group col-md-4 mb-0">
+                            {{ form.image3|as_crispy_field }}
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12 mb-0">
+                            {{ form.description|as_crispy_field }}
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block">Update Post</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

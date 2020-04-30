@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{{% block title %}
+    Post Detail
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-3">
+        <div class="jumbotron">
+            <form action="" method="post">
+                {% csrf_token %}
+                <p>Do you want to delete "{{ postad.title }}"?</p>
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+        </div>
+    </div>
+    </div>
+{% endblock %}

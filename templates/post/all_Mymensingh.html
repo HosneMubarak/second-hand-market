@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    All Posts
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-3">
+    <h4 class="display-4 text-center">Location : Mymensingh</h4>
+    <hr class="bg-success">
+    <div class="container">
+        <div class="row">
+            {% for post in object_list %}
+
+            <div class="col-md-3 mb-3">
+                <div class="card border-success">
+                    <!-- card-image-->
+                    <div class="card-img-top">
+                        <img src="{{ post.image_main.url }}" alt="" class="img-fluid"
+                             style="width: 250px; height: 220px;">
+                        <a href=""></a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">{{ post.title }}</h4>
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">Price: {{ post.price }}<i>&#x9f3;</i></li>
+                            <li class="list-inline-item">Location: {{ post.location }} </li>
+                        </ul>
+                        <a href="{% url 'post-detail' post.id %}" class="btn btn-dark btn-block">Details</a>
+                    </div>
+
+                </div>
+            </div>
+            {% endfor %}
+
+
+        </div>
+
+
+        <div class="pagination justify-content-center">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

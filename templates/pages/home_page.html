@@ -1,0 +1,213 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block content %}
+    <hr class="bg-success">
+    <section>
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <h1 class="display-4 text-center">Develop By</h1>
+                        <hr class="color-success">
+                        <div class="col-md-12">
+                            <h4 class="text-center"><a href="https://www.facebook.com/hosnemubarak.tasmir"><img
+                                    src="{% static 'images/hosne_mubarak.jpg' %}"
+                                    style="width: 120px; height: 120px; border: green solid 1px;"
+                                    alt="hosne-mubarak"></a>
+                        </div>
+                        </h4>
+                        <h4 class="text-center display-4"><a href="https://www.facebook.com/hosnemubarak.tasmir"
+                                                             class="text-success">Hosne Mubarak</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container mt-3">
+        <!--    top-section-->
+        <section>
+            <div class="row">
+                <div class="col-sm">
+                    <h1>Welcome to Bikroy.com - the largest marketplace in Bangladesh!</h1>
+                    <p>Buy and sell everything from used cars to mobile phones and computers, or search for property,
+                        jobs
+                        and more in Bangladesh!</p>
+
+                    <div class="category text-success">
+                        <div class="row ml-2">
+                            <div class="card">
+
+                                <div class="card-body">
+                                    <p class="card-title"><i class="fa fa-home fa-3x"></i></p>
+                                    <p class="card-text">Property</p>
+                                </div>
+                            </div>
+                            <div class="card ml-1">
+
+                                <div class="card-body">
+                                    <p class="card-title"><i class="fa fa-car fa-3x"></i></p>
+                                    <p class="card-text">Vehicle</p>
+                                </div>
+                            </div>
+                            <div class="card ml-1">
+
+                                <div class="card-body">
+                                    <p class="card-title"><i class="fa fa-mobile fa-3x ml-2"></i></p>
+                                    <p class="card-text">Mobile</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm">
+                    <img id="mapbd" src="{% static 'images/bagladesh-map.jpg' %}" alt="bangladesh-map"
+                         class="mt-3 h-auto w-100">
+                </div>
+                <div class="col-sm">
+                    <!-- ACCORDION -->
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>
+                                    <a href="#collapse1" data-parent="#accordion" data-toggle="collapse"
+                                       class="text-success">
+                                        Cities
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="collapse1" class="collapse show">
+                                <div class="card-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="{% url 'dhaka-all-post' %}">Dhaka</a></li>
+                                        <li class="list-group-item"><a
+                                                href="{% url 'chattogram-all-post' %}">Chattogram</a></li>
+                                        <li class="list-group-item"><a href="{% url 'Khulna-all-post' %}">Khulna</a>
+                                        </li>
+                                        <li class="list-group-item"><a href="{% url 'Barishal-all-post' %}">Barishal</a>
+                                        </li>
+                                        <li class="list-group-item"><a href="{% url 'Rajshahi-all-post' %}">Rajshahi</a>
+                                        </li>
+                                        <li class="list-group-item"><a href="{% url 'Rangpur-all-post' %}">Rangpur</a>
+                                        </li>
+                                        <li class="list-group-item"><a
+                                                href="{% url 'Mymensingh-all-post' %}">Mymensingh</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>
+                                    <a href="#collapse2" data-parent="#accordion" data-toggle="collapse"
+                                       class="text-success">
+                                        Divisions
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="collapse2" class="collapse">
+                                <div class="card-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="{% url 'dhaka-all-post' %}">Dhaka
+                                            Divission</a></li>
+                                        <li class="list-group-item"><a href="{% url 'chattogram-all-post' %}">Chattogram
+                                            Divission</a></li>
+                                        <li class="list-group-item"><a href="{% url 'Khulna-all-post' %}">Khulna
+                                            Divission</a></li>
+                                        <li class="list-group-item"><a href="{% url 'Barishal-all-post' %}">Barishal
+                                            Divission</a></li>
+                                        <li class="list-group-item"><a href="{% url 'Rajshahi-all-post' %}">Rajshahi
+                                            Divission</a></li>
+                                        <li class="list-group-item"><a href="{% url 'Rangpur-all-post' %}">Rangpur
+                                            Divission</a></li>
+                                        <li class="list-group-item"><a href="{% url 'Mymensingh-all-post' %}">Mymensingh
+                                            Divission</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--    pots-section-->
+        <hr class="bg-success">
+        <section id="location">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="col-md-12 text-center">
+                        <h4 class="menu-item-header"><a href="" class="t-bold">Mobiles</a></h4>
+                        <p class="count"><span class="ui-badge">({{ mobiles.count }})</span></p>
+                        <p class="info t-small">Buy and sell new and used mobiles, SIM cards and other mobile
+                            accessories in Bangladesh. Choose from top brands including Apple, OnePlus, Xiaomi and
+                            Nokia.</p></div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-md-12 text-center">
+                        <h4 class="menu-item-header"><a href="" class="t-bold">Electromics</a></h4>
+                        <p class="count"><span class="ui-badge">({{ Electromics.count }})</span></p>
+                        <p class="info t-small">Find great deals for used electronics in Bangladesh including mobile
+                            phones,
+                            computers, laptops, TVs, cameras and much more.</p></div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-md-12 text-center">
+                        <h4 class="menu-item-header"><a href="" class="t-bold">Property</a></h4>
+                        <p class="count"><span class="ui-badge">({{ Property.count }})</span></p>
+                        <p class="info t-small">View listings for property in Bangladesh. Find the cheapest rates for
+                            apartments, commercial and residential properties, as well as for land and plots.</p></div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-md-12 text-center">
+                        <h4 class="menu-item-header"><a href="" class="t-bold">Sports & Kids</a></h4>
+                        <p class="count"><span class="ui-badge">({{ sports.count }})</span></p>
+                        <p class="info t-small">Find great deals for used electronics in Bangladesh including mobile
+                            phones,
+                            computers, laptops, TVs, cameras and much more.</p></div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-md-12 text-center">
+                        <h4 class="menu-item-header"><a href="" class="t-bold">Home & Living</a></h4>
+                        <p class="count"><span class="ui-badge">({{ homeandliving.count }})</span></p>
+                        <p class="info t-small">Buy and sell used musical instruments, sports gear and accessories, art
+                            and collectibles and items for kids here.</p></div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-md-12 text-center">
+                        <h4 class="menu-item-header"><a href="" class="t-bold">Vehicles</a></h4>
+                        <p class="count"><span class="ui-badge">({{ Vehicles.count }})</span></p>
+                        <p class="info t-small">uy and sell used cars, motorbikes and other vehicles in Bangladesh.
+                            Choose from top brands including Toyota, Nissan, Honda and Suzuki.</p></div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-md-12 text-center">
+                        <h4 class="menu-item-header"><a href="" class="t-bold">Fashion, Health & Beauty</a></h4>
+                        <p class="count"><span class="ui-badge">({{ healthFashionBeauty.count }})</span></p>
+                        <p class="info t-small">Buy and sell clothing, garments, shoes and other personal items
+                            including handbags, perfumes etc.</p></div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-md-12 text-center">
+                        <h4 class="menu-item-header"><a href="" class="t-bold">Pets & Animals</a></h4>
+                        <p class="count"><span class="ui-badge">({{ PetsAndAnumals.count }})</span></p>
+                        <p class="info t-small">Search from the widest variety of pets in Bangladesh. Select from dogs,
+                            puppies, cats, kittens, birds and other domesticated animals.</p></div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+{% endblock %}

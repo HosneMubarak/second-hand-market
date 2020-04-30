@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="741a1cd5-7ecc-4aef-863b-9f645fd2e2d3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1Zj1aegHNIsROhkAiOmsm2LFk1q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tasmir\PycharmProjects\SecondHandOnlineMarket\static\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SecondHandOnlineMarket" type="Python.DjangoServer" factoryName="Django server">
+      <module name="SecondHandOnlineMarket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="SecondHandOnlineMarket.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="741a1cd5-7ecc-4aef-863b-9f645fd2e2d3" name="Default Changelist" comment="" />
+      <created>1585337753897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585337753897</updated>
+      <workItem from="1585337756696" duration="766000" />
+      <workItem from="1585338590383" duration="6442000" />
+      <workItem from="1585386544092" duration="94000" />
+      <workItem from="1585386716049" duration="4671000" />
+      <workItem from="1585393038737" duration="2438000" />
+      <workItem from="1585404600548" duration="7047000" />
+      <workItem from="1585415300181" duration="13564000" />
+      <workItem from="1585464927235" duration="4508000" />
+      <workItem from="1585471151006" duration="7506000" />
+      <workItem from="1585485449311" duration="4799000" />
+      <workItem from="1585495913622" duration="5851000" />
+      <workItem from="1585502262270" duration="671000" />
+      <workItem from="1585508253822" duration="3328000" />
+      <workItem from="1585562388199" duration="2392000" />
+      <workItem from="1585564789241" duration="5784000" />
+      <workItem from="1585573356783" duration="6007000" />
+      <workItem from="1585854096486" duration="146000" />
+      <workItem from="1585861104047" duration="222000" />
+      <workItem from="1585933938787" duration="304000" />
+      <workItem from="1585935498672" duration="72000" />
+      <workItem from="1586181805778" duration="452000" />
+      <workItem from="1586183357920" duration="270000" />
+      <workItem from="1586183782657" duration="95000" />
+      <workItem from="1586882172373" duration="209000" />
+      <workItem from="1586883897739" duration="9752000" />
+      <workItem from="1586897828979" duration="9296000" />
+      <workItem from="1586907256178" duration="96000" />
+      <workItem from="1586907411725" duration="120000" />
+      <workItem from="1586907608416" duration="4519000" />
+      <workItem from="1586912139146" duration="98000" />
+      <workItem from="1586972581171" duration="4141000" />
+      <workItem from="1587051637652" duration="351000" />
+      <workItem from="1587977820745" duration="393000" />
+      <workItem from="1587978224529" duration="1393000" />
+      <workItem from="1587980904503" duration="1145000" />
+      <workItem from="1587982344443" duration="3077000" />
+      <workItem from="1587993197056" duration="3452000" />
+      <workItem from="1588266964421" duration="3351000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="28" key="#Inspections" timestamp="1585570189398">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="28" key="#Inspections/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1585570189398" />
+    <state x="275" y="28" key="#Notifications" timestamp="1586183871674">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="28" key="#Notifications/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1586183871674" />
+    <state x="448" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586973826135">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="448" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1586973826135" />
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587995384327">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1587995384327" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1585575224529">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1585575224529" />
+    <state x="1498" y="58" width="1182" height="554" key="DiffContextDialog" timestamp="1587982687780">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="1498" y="58" width="1182" height="554" key="DiffContextDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1587982687780" />
+    <state width="1306" height="190" key="GridCell.Tab.0.bottom" timestamp="1588267820541">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1306" height="190" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588267820541" />
+    <state width="1306" height="190" key="GridCell.Tab.0.center" timestamp="1588267820541">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1306" height="190" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588267820541" />
+    <state width="1306" height="190" key="GridCell.Tab.0.left" timestamp="1588267820540">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1306" height="190" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588267820540" />
+    <state width="1306" height="190" key="GridCell.Tab.0.right" timestamp="1588267820541">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1306" height="190" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588267820541" />
+    <state x="184" y="12" key="SettingsEditor" timestamp="1587982532171">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="12" key="SettingsEditor/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1587982532171" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1588266964194">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588266964194" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586181805231" />
+    <state x="492" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585575209478">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="492" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1585575209478" />
+    <state x="1366" y="0" width="1032" height="502" key="dock-window-1" timestamp="1586910769719">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="1366" y="0" width="1032" height="502" key="dock-window-1/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1586910769719" />
+  </component>
+</project>

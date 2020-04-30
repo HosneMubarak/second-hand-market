@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}
+    Sing Up Page
+{% endblock %}
+
+{% block content %}
+    <hr class="bg-success">
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <h1 class="display-4">Sign up on Bikroy</h1>
+                <h5>To view your ads and account details, please login to your Bikroy account</h5>
+                <ul class="list-unstyled">
+                    <li class="mt-4"><span><i class="fa fa-upload"></i></span> <span>Start posting your own ads</span>
+                    </li>
+                    <li class="mt-4"><span><i class="fa fa-search"></i></span> <span>Mark ads as favorite and view them later.</span>
+                    </li>
+                    <li class="mt-4"><span><i class="fa fa-tasks"></i></span> <span>View and manage your ads at your convenience.</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+                <form method="post">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <button type="submit" class="btn btn-success btn-block">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
